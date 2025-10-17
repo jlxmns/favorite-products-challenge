@@ -580,8 +580,6 @@ class GetFavoritesTests(CommonTestCase):
             api_id=1,
             title="Test Product",
             price=Decimal("99.99"),
-            description="Test description",
-            category="test",
             image="https://example.com/image.png",
             rating_rate=Decimal("4.5"),
             rating_count=100
@@ -598,7 +596,5 @@ class GetFavoritesTests(CommonTestCase):
         self.assertIn('api_id', item)
         self.assertIn('title', item)
         self.assertIn('price', item)
-        self.assertIn('description', item)
-        self.assertIn('category', item)
         self.assertIn('image', item)
 
