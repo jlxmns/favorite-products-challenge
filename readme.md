@@ -78,11 +78,11 @@ senha: admin
 ```
 
 - Uma Token de autenticação também será gerada automaticamente. Você pode pegar ela através do painel de administrador, na seção de "AuthToken", ou fazendo uma requisição de login à API.
-- O endpoint de login é: `http://localhost:8000/api/auth/login`
+- O endpoint de login é: http://localhost:8000/api/auth/login
 
 ## Documentação da API
 
-A documentação Swagger da API está disponível em `http://localhost:8000/api/docs`.
+A documentação Swagger da API está disponível em http://localhost:8000/api/docs.
 
 ### Principais Endpoints
 
@@ -126,7 +126,7 @@ Para evitar chamadas desnecessárias e não sobrecarregar a API de produtos, tod
 
 Para garantir a consistência dos dados dos produtos, um cronjob é executado a cada hora. 
 
-Esse cronjob faz uma requisição para `https://fakestoreapi.com/products`, verifica os IDs dos produtos locais e compara os dados com o resultado da requisição.
+Esse cronjob faz uma requisição para https://fakestoreapi.com/products, verifica os IDs dos produtos locais e compara os dados com o resultado da requisição.
 Caso haja alguma divergência de dados em um certo produto, o produto é atualizado localmente com os dados recebidos da API.
 
 ## Testes Unitários
