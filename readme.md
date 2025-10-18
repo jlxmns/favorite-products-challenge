@@ -39,7 +39,7 @@ API RESTful construída com **Django** e **PostgreSQL** para gerenciar produtos 
 ## Stack
 
 - **Linguagem:** Python 3.13
-- **Framework:** Django 5.1 + Django Ninja
+- **Framework:** Django 5.2 + Django Ninja
 - **Banco de Dados:** PostgreSQL 16
 - **Containerização:** Docker + Docker Compose
 - **Documentação:** Swagger
