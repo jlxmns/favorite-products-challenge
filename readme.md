@@ -63,7 +63,6 @@ docker-compose -f docker-compose.yml up -d
 - Acesse a aplicação:
 
 ```
-API: http://localhost:8000/api
 Documentação Swagger: http://localhost:8000/api/docs
 Admin Django: http://localhost:8000/admin
 ```
